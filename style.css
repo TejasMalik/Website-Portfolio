@@ -46,7 +46,7 @@ html{
 
 .navbar.sticky {
     padding: 15px 0;
-    background: crimson;
+    background: #18d26e;
     opacity: 1;
 }
 
@@ -63,7 +63,7 @@ html{
 }
 
 .navbar .logo a span{
-    color: crimson;
+    color: #18d26e;
     transition: all 0.3s ease;
 }
 
@@ -86,7 +86,7 @@ html{
 }
 
 .navbar .menu li a:hover {
-    color: crimson;
+    color: #18d26e;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -105,7 +105,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #18d26e;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -137,7 +137,7 @@ html{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: black;
     min-height: 500px;
     font-family: 'Ubuntu', 'san-serif';
 }
@@ -163,7 +163,7 @@ html{
 }
 
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #18d26e;
     font-weight: 500;
 }
 
@@ -177,17 +177,19 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: black;
     color: #fff;
     line-height: 1;
     margin-right: 8px;
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    opacity: 0.5;
 }
 
 .home .home-content .social-links a:hover {
-    background: crimson;
+    background: #18d26e;
+    opacity: 1;
   }
 
 /* similar styling */
@@ -236,7 +238,7 @@ section .title::after {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #18d26e;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -271,7 +273,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-    color: crimson;
+    color: #18d26e;
 }
 
 .about .about-content .right p {
@@ -280,19 +282,19 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    background-color: crimson;
+    background-color: #18d26e;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding:  10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #18d26e;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-    color: crimson;
+    color: #18d26e;
     background: none;
 }
 
@@ -325,7 +327,7 @@ section .title::after {
 }
 
 .education .edu-content .card:hover {
-    background: crimson;
+    background: #18d26e;
 }
 
 .education .edu-content .card .box {
@@ -338,12 +340,12 @@ section .title::after {
 
 .education .edu-content .card i {
     font-size: 35px;
-    color: crimson;
+    color: #18d26e;
     transition: color 0.3s ease;
 }
 
 .education .edu-content .card:hover i {
-    color: #fff;
+    color: black;
 }
 
 .education .edu-content .card .text {
@@ -400,7 +402,7 @@ section .title::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: #18d26e;
 }
 
 .skills-content .right .python::before {
@@ -438,7 +440,7 @@ section .title::after {
 }
 
 .projects .carousel .card:hover {
-    background: crimson;
+    background: #18d26e;
 }
 
 .projects .carousel .card .box {
@@ -482,7 +484,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #18d26e;
     transition: all 0.3s ease;
 }
 
@@ -501,7 +503,7 @@ section .title::after {
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid #18d26e!important;
     transition: all 0.3s ease;
 }
 
@@ -512,7 +514,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: crimson!important;
+    background: #18d26e!important;
 }
 
 /* contact section styling */
@@ -550,7 +552,7 @@ section .title::after {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: crimson;
+    color: #18d26e;
 }
 
 .contact .contact-content .info .head {
@@ -600,7 +602,7 @@ section .title::after {
 
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus {
-    border-color: crimson;
+    border-color: #18d26e;
 }
 
 .contact .right form .textarea textarea {
@@ -616,8 +618,8 @@ section .title::after {
 .contact .right form .button button {
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid #18d26e;
+    background: #18d26e;
     color: #fff;
     outline: none;
     font-size: 20px;
@@ -628,7 +630,7 @@ section .title::after {
 }
 
 .contact .right form .button button:hover {
-    color: crimson;
+    color: #18d26e;
     background: none;
 }
 
@@ -746,5 +748,14 @@ section .title::after {
     }
     .home .home-content .text-3 {
         font-size: 27px;
+    }
+    .projects .title::after {
+        /* display: none; */
+        transform: translateY(-30px);
+        transform: translateX(-85px);
+    }
+    .education .title::after {
+        transform: translateY(-30px);
+        transform: translateX(-80px);
     }
 }
