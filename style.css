@@ -749,13 +749,8 @@ section .title::after {
     .home .home-content .text-3 {
         font-size: 27px;
     }
-    .projects .title::after {
-        /* display: none; */
-        transform: translateY(-30px);
-        transform: translateX(-85px);
-    }
+    .projects .title::after,
     .education .title::after {
-        transform: translateY(-30px);
-        transform: translateX(-80px);
+        display: none;
     }
 }
